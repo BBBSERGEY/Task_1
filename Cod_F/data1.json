@@ -1,0 +1,13 @@
+{
+    "first_name": "Петя",
+    "email": "petya228@gmail.com",
+    "salary": "40_000",
+    "age": "16",
+    "human": true,
+    "skills": [
+        "Пайтон",
+        "Дизайн",
+        "Музыка",
+        "Футбол"
+    ]
+}
