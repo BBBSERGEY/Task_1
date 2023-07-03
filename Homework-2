@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet", href="main.css">
+    <title>Мой сайт</title>
+</head>
+<body>
+    <h1>Занятие 2</h1>
+    <p class="paragraph-1">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+        Praesentium amet ut, est explicabo, modi sunt esse, eveniet dolore accusamus officiis magnam illum nihil.
+        Quod modi exercitationem alias sed, dolorum itaque.
+    </p>
+
+    <span class="paragraph-2">
+        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Cupiditate distinctio dolorum ipsam error id libero cumque in nostrum! Perferendis animi delectus commodi amet atque iure, deserunt quaerat nostrum nisi beatae. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nemo eaque aut eius porro voluptatem beatae fugiat quasi distinctio enim, consequuntur repellendus quo quam unde libero minus earum harum cupiditate nihil.
+    </span>
+    <span class="paragraph-3">
+        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Cupiditate distinctio dolorum ipsam error id libero cumque in nostrum! Perferendis animi delectus commodi amet atque iure, deserunt quaerat nostrum nisi beatae. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nemo eaque aut eius porro voluptatem beatae fugiat quasi distinctio enim, consequuntur repellendus quo quam unde libero minus earum harum cupiditate nihil.
+    </span>
+
+    <ul>
+        <li>Первый элемент</li>
+        <li>Второй элемент</li>
+        <li>Третий элемент</li>
+    </ul>
+
+    <img src="like.jpg">
+
+</body>
+</html>
