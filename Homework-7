@@ -1,0 +1,41 @@
+PRAGMA foreign_keys = 0;
+
+CREATE TABLE onlineshop (
+    id           INTEGER      NOT NULL
+                              PRIMARY KEY AUTOINCREMENT,
+    title        VARCHAR (50) NOT NULL,
+    description  TEXT         NOT NULL,
+    price        DECIMAL      NOT NULL,
+    auction      BOOL         NOT NULL,
+    created_time DATETIME     NOT NULL,
+    update_time  DATETIME     NOT NULL
+);
+
+INSERT INTO onlineshop (
+                           id,
+                           title,
+                           description,
+                           price,
+                           auction,
+                           created_time,
+                           update_time
+                       )
+                       SELECT id,
+                              title,
+                              description,
+                              price,
+                              auction,
+                              created_time,
+                              update_time
+                         FROM app_online_shop_onlineshop;
+
+DROP TABLE app_online_shop_onlineshop;
+
+PRAGMA foreign_keys = 1;
+
+# -------------------------------------------
+
+>>> result = OnlineShop.objects.values()   
+>>> result
+<QuerySet [{'id': 1, 'title': 'Продам гараж', 'description': 'Просторный, новый, в хорошем месте, кирпичный, недорого', 'price': Decimal('2000.00'), 'auction': True, 'created_time': datetime.datetime(2023, 8, 2, 6, 46, 36, 535173, tzinfo=datetime.timezone.utc), 'update_time': datetime.datetime(2023, 8, 2, 6, 46, 36, 535173, tzinfo=datetime.timezone.utc)}]>
+>>>
